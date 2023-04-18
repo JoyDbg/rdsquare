@@ -1,0 +1,22 @@
+.infrastructure {
+  height: 70vh;
+  width: 100%;
+  background-color: #FAFAFA;
+  position: relative;
+}
+
+.infrastructure .infrastructure-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  width: 60%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.infrastructure .infrastructure-content img {
+  height: 75%;
+  align-self: center;
+}

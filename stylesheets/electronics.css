@@ -1,0 +1,22 @@
+.electronics {
+  height: 70vh;
+  width: 100%;
+  background-color: #F8F7FF;
+  position: relative;
+}
+
+.electronics .electronics-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  width: 60%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.electronics .electronics-content img {
+  height: 75%;
+  align-self: center;
+}

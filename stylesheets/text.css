@@ -34,3 +34,8 @@ h3 {
   left: 20%;
   right: auto;
 }
+
+.title-blue {
+ height: 25vh;
+ text-align: center;
+}

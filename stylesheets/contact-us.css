@@ -4,4 +4,29 @@
   background-color: #F8F7FF;
   font-family: 'Poppins', sans-serif;
   position: relative;
+  margin-top: 25vh;
+}
+
+.contact-us img {
+  position: absolute;
+  top: -88px;
+  bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 335px;
+}
+
+.contact-us h2 {
+  position: absolute;
+  z-index: 1;
+  top: -13px;
+  bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }

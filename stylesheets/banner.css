@@ -5,15 +5,34 @@
   background-position: center;
   font-family: 'Poppins', sans-serif;
   color: white;
-  display: flex;
-  justify-content: center;
+  position: relative;
+}
+
+.banner-content {
+  padding-left: 15vw;
+  padding-right: 10vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
-.banner .banner-text {
-
+.banner-content img {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
 }
 
-.banner .banner-devices {
 
+@media (min-width: 100px) and (max-width: 1000px) {
+  .banner-content img {
+    display: none;
+  }
+  .banner-content .banner-text h1 {
+    text-align: center;
+  }
+  .banner {
+    height: fit-content;
+  }
 }

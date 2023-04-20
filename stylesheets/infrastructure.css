@@ -1,22 +1,19 @@
 .infrastructure {
-  height: 70vh;
+  height:fit-content;
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #FFFFFF;
   position: relative;
 }
 
-.infrastructure .infrastructure-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
-  width: 60%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.infrastructure .infrastructure-content img {
-  height: 75%;
-  align-self: center;
+.infrastructure .services-content .square-yellow {
+  position: absolute;
+  border: #FFC107 solid 10px;
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  top: -245px;
+  bottom: auto;
+  left: auto;
+  right: -161px;
+  margin: 0 auto;
 }

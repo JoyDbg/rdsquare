@@ -1,22 +1,55 @@
 .electronics {
-  height: 70vh;
+  height:fit-content;
   width: 100%;
   background-color: #F8F7FF;
   position: relative;
 }
 
-.electronics .electronics-content {
+.services-content {
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
-  width: 60%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 10%;
-  padding-right: 10%;
+  height: 90%;
+  align-items: center;
 }
 
-.electronics .electronics-content img {
-  height: 75%;
-  align-self: center;
+.services-content img {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.services-content p {
+  text-align: justify;
+}
+
+.electronics .services-content .square-blue-middle {
+  position: absolute;
+  border: #157EE8 solid 20px;
+  box-shadow: 3px 3px 0px #F10E3F;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: -205px;
+  bottom: auto;
+  left: -95px;
+  right: auto;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.electronics .services-content .square-blue-light {
+  position: absolute;
+  background-color: #DDE9FF;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: -3px;
+  bottom: auto;
+  left: -95px;
+  right: auto;
+  margin: 0 auto;
 }

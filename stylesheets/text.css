@@ -1,10 +1,9 @@
 p {
   color: #0A0A0A;
   font-family: 'Poppins', sans-serif;
-  text-align: center;
   font-size: 16px;
-  padding: 10px;
   line-height: 26px;
+  margin: 0px;
 }
 
 h1 {
@@ -13,6 +12,7 @@ h1 {
   text-align: center;
   font-size: 45px;
   line-height: 1.3;
+  margin: 0 auto;
 }
 
 h2 {
@@ -20,7 +20,6 @@ h2 {
   color: #157EE8;
   text-align: center;
   font-size: 36px;
-  line-height: 29px;
 }
 
 h3 {
@@ -35,7 +34,27 @@ h3 {
   right: auto;
 }
 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  color: #F10E3F;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+}
+
 .title-blue {
- height: 25vh;
+ height: 20vh;
+ width: 100%;
  text-align: center;
+ background-color: #FFFFFF;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }

@@ -1,5 +1,63 @@
 .collaboration-plan {
   height: 100vh;
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #FFFFFF;
+}
+
+.collaboration-plan-content {
+  background-color: #F8F7FF;
+  border: #1B1C1E solid 1px;
+  border-radius: 20px;
+  width: 60vw;
+  height: fit-content;
+  margin-left: 10vw;
+  padding: 3vw;
+  position: relative;
+  box-shadow: 3px 3px 40px rgba(0,0,0,.15);
+}
+
+.collaboration-plan-content-text {
+  width: 60%;
+  text-align: justify;
+  margin: 1vw;
+  padding-left: 3vw;
+  border-left: #F10E3F solid 8px;
+}
+
+.collaboration-plan-content-text p {
+  padding-bottom: 20px;
+}
+
+.collaboration-plan-content img {
+  position: absolute;
+  top: auto;
+  bottom: 0px;
+  left: auto;
+  right: -18vw;
+  z-index: 1;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 100px) and (max-width: 800px) {
+  .collaboration-plan-content img {
+    display: none;
+  }
+  .collaboration-plan-content {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .collaboration-plan-content-text {
+    width: 90%;
+  }
+}
+
+@media (min-width: 800px) {
+
+}
+
+@media (min-width: 1200px) {
+
 }

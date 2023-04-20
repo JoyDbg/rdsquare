@@ -30,3 +30,44 @@
   right: 0;
   text-align: center;
 }
+
+.contact-us .square-yellow {
+  position: absolute;
+  border: #FFC107 solid 10px;
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  top: -165px;
+  bottom: auto;
+  left: auto;
+  right: -160px;
+  margin: 0 auto;
+}
+
+.contact-us .square-blue-middle {
+  position: absolute;
+  border: #157EE8 solid 20px;
+  box-shadow: 3px 3px 0px #F10E3F;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 65px;
+  bottom: auto;
+  left: auto;
+  right: -95px;
+  margin: 0 auto;
+}
+
+.contact-us .square-red {
+  position: absolute;
+  border: #F10E3F solid 10px;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: -360px;
+  bottom: auto;
+  left: auto;
+  right: -160px;
+  margin: 0 auto;
+  z-index: 1;
+}

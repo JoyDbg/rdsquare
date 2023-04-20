@@ -1,7 +1,75 @@
 .our-team {
-  height: 120vh;
-  width: 100%;
+  height: fit-content;
   background-color: #DDE9FF;
   font-family: 'Poppins', sans-serif;
   position: relative;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-left: 17%;
+  padding-right: 17%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.team-member {
+  background-color: #FAFAFA;
+  height: fit-content;
+  border-radius: 40px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  margin: 10px;
+  position: relative;
+  box-shadow: 3px 3px 40px rgba(0,0,0,.15);
+}
+
+.team-member p {
+  text-align: justify;
+}
+
+.team-member h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #0A0A0A;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.team-member .circle {
+  border-radius: 50%;
+  background-image: url('../images/banner.jpeg');
+  height: 30vh;
+  width: 30vh;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -120px;
+  bottom: auto;
+  border: #FAFAFA solid 20px;
+  margin: 0 auto;
+}
+
+@media (min-width: 100px) and (max-width: 800px) {
+  .team-member {
+    margin-top: 20vh;
+  }
+  .our-team {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  .team-member {
+    margin-top: 20vh;
+  }
+  .our-team {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .our-team {
+    grid-template-columns: 1fr 1fr;
+  }
 }

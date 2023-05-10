@@ -2,5 +2,22 @@
   height: 10vh;
   width: 100%;
   background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-line {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #7B7B7B;
+  padding-top: 15px;
+}
+
+.footer p {
+  color: #7B7B7B;
   font-family: 'Poppins', sans-serif;
 }
+

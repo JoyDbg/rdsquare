@@ -26,3 +26,17 @@
   z-index: 1;
   padding-left: 10vw;
 }
+
+.navbar h4:hover {
+  color: #F10E3F;
+}
+
+@media (min-width: 100px) and (max-width: 1000px) {
+ .navbar h4 {
+  display: none;
+ }
+
+ .navbar img{
+  left: auto;
+ }
+}

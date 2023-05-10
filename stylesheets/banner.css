@@ -29,9 +29,18 @@
   .banner-content img {
     display: none;
   }
-  .banner-content .banner-text h1 {
+  .banner-content {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
   }
+
+  .banner-content h1 {
+    font-size: 24px;
+  }
+
   .banner {
     height: fit-content;
   }

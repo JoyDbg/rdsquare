@@ -53,3 +53,26 @@
   right: auto;
   margin: 0 auto;
 }
+
+@media (min-width: 100px) and (max-width: 1000px) {
+  .services-content {
+    grid-template-columns: 1fr;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  .services-content img {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+}
+@media (min-width: 1000px) {
+  .services-content {
+    grid-template-columns: 1fr;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+  .services-content img {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+}

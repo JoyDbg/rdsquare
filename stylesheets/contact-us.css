@@ -16,7 +16,8 @@
   left: 0;
   right: 0;
   text-align: center;
-  height: 335px;
+  height: 20vw;
+  min-height: 200px;
 }
 
 .contact-us h2 {

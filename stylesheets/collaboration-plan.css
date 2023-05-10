@@ -48,6 +48,7 @@
   .collaboration-plan-content {
     width: 90vw;
     margin: 0 auto;
+    border: none;
   }
   .collaboration-plan-content-text {
     width: 90%;
